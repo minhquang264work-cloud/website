@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nông Sản Việt - Tươi từ vườn đến bàn ăn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">🌿 Nông Sản Việt</a>
+      <nav>
+        <a href="#san-pham">Sản phẩm</a>
+        <a href="#ve-chung-toi">Về chúng tôi</a>
+      </nav>
+      <button class="cart-btn" id="open-cart" aria-label="Mở giỏ hàng">
+        🧺 Giỏ hàng <span class="badge" id="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">Tươi từ vườn đến bàn ăn</p>
+      <h1>Nông sản sạch<br>từ mọi miền Việt Nam</h1>
+      <p class="lead">Trái cây, gạo, rau củ và đặc sản được chọn lọc trực tiếp từ nhà vườn, thu hoạch trong ngày, giao nhanh tận nhà.</p>
+      <a class="btn btn-light" href="#san-pham">Mua sắm ngay</a>
+    </div>
+  </section>
+
+  <section class="perks container">
+    <div><span>🚜</span><strong>Trực tiếp từ nhà vườn</strong><small>Không qua trung gian</small></div>
+    <div><span>🌱</span><strong>An toàn, hữu cơ</strong><small>Hạn chế thuốc bảo vệ thực vật</small></div>
+    <div><span>🚚</span><strong>Giao hàng nhanh</strong><small>Miễn phí đơn từ 300.000đ</small></div>
+  </section>
+
+  <main class="container" id="san-pham">
+    <h2 class="section-title">Sản phẩm của chúng tôi</h2>
+    <div class="toolbar">
+      <div class="filters" id="filters"></div>
+      <input type="search" id="search" placeholder="Tìm nông sản, vùng miền..." aria-label="Tìm kiếm">
+    </div>
+    <div class="grid" id="product-grid"></div>
+    <p class="empty" id="empty" hidden>Không tìm thấy sản phẩm phù hợp.</p>
+  </main>
+
+  <section class="about" id="ve-chung-toi">
+    <div class="container about-inner">
+      <h2 class="section-title">Về chúng tôi</h2>
+      <p>Nông Sản Việt kết nối người tiêu dùng với những người nông dân chăm chỉ khắp ba miền. Mỗi sản phẩm đều mang hương vị của vùng đất nơi nó lớn lên: từ xoài cát miền Tây, cà phê Tây Nguyên đến trà Shan tuyết vùng cao Hà Giang.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>🌿 Nông Sản Việt · Hotline: 0900 000 000 · nongsanviet@example.com</p>
+      <small>© 2026 Nông Sản Việt. Tươi ngon từ đất Việt.</small>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="Giỏ hàng" aria-hidden="true">
+    <div class="drawer-head">
+      <h3>Giỏ hàng của bạn</h3>
+      <button class="icon-btn" id="close-cart" aria-label="Đóng">✕</button>
+    </div>
+    <div class="drawer-body" id="cart-items"></div>
+    <div class="drawer-foot" id="cart-foot">
+      <div class="total-row"><span>Tạm tính</span><strong id="cart-total">0đ</strong></div>
+      <button class="btn btn-primary block" id="checkout-btn">Đặt hàng</button>
+    </div>
+  </aside>
+
+  <div class="modal" id="checkout-modal" hidden>
+    <form class="modal-card" id="checkout-form" novalidate>
+      <h3>Thông tin giao hàng</h3>
+      <label>Họ và tên <input name="name" required autocomplete="name"></label>
+      <label>Số điện thoại <input name="phone" type="tel" required autocomplete="tel"></label>
+      <label>Địa chỉ nhận hàng <input name="address" required autocomplete="street-address"></label>
+      <label>Ghi chú <textarea name="note" rows="2"></textarea></label>
+      <p class="form-error" id="form-error" role="alert"></p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" id="cancel-checkout">Quay lại</button>
+        <button type="submit" class="btn btn-primary">Xác nhận đặt hàng</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="modal" id="success-modal" hidden>
+    <div class="modal-card center">
+      <div class="big">🎉</div>
+      <h3>Đặt hàng thành công!</h3>
+      <p id="success-text"></p>
+      <button class="btn btn-primary" id="close-success">Tiếp tục mua sắm</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

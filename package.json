@@ -1,0 +1,13 @@
+{
+  "name": "nong-san-viet",
+  "version": "1.0.0",
+  "description": "Website bán nông sản Việt Nam",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

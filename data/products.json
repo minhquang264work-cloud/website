@@ -1,0 +1,23 @@
+[
+  { "id": 1, "name": "Xoài cát Hòa Lộc", "origin": "Tiền Giang", "category": "Trái cây", "price": 85000, "unit": "kg", "emoji": "🥭", "desc": "Thịt dày, ngọt thanh, thơm đặc trưng, ít xơ. Vua của các loại xoài miền Tây." },
+  { "id": 2, "name": "Thanh long ruột đỏ", "origin": "Bình Thuận", "category": "Trái cây", "price": 45000, "unit": "kg", "emoji": "🐉", "desc": "Ruột đỏ tươi, vị ngọt mát, giàu vitamin C và chất xơ." },
+  { "id": 3, "name": "Vải thiều Lục Ngạn", "origin": "Bắc Giang", "category": "Trái cây", "price": 60000, "unit": "kg", "emoji": "🍒", "desc": "Quả to, cùi dày, vị ngọt đậm, hạt nhỏ. Vào mùa tháng 6." },
+  { "id": 4, "name": "Bưởi da xanh", "origin": "Bến Tre", "category": "Trái cây", "price": 70000, "unit": "quả", "emoji": "🍈", "desc": "Múi hồng, mọng nước, vị ngọt thanh không đắng." },
+  { "id": 5, "name": "Dừa xiêm xanh", "origin": "Bến Tre", "category": "Trái cây", "price": 20000, "unit": "trái", "emoji": "🥥", "desc": "Nước dừa ngọt mát, cơm dừa mềm, giải khát tự nhiên." },
+  { "id": 6, "name": "Chuối tiêu hồng", "origin": "Đồng Nai", "category": "Trái cây", "price": 30000, "unit": "kg", "emoji": "🍌", "desc": "Chín tự nhiên, thơm ngọt, giàu kali." },
+
+  { "id": 7, "name": "Gạo ST25", "origin": "Sóc Trăng", "category": "Gạo & Ngũ cốc", "price": 32000, "unit": "kg", "emoji": "🌾", "desc": "Gạo ngon nhất thế giới: hạt dài, dẻo, thơm mùi lá dứa." },
+  { "id": 8, "name": "Gạo lứt đỏ Điện Biên", "origin": "Điện Biên", "category": "Gạo & Ngũ cốc", "price": 38000, "unit": "kg", "emoji": "🍚", "desc": "Gạo lứt nguyên cám, tốt cho tim mạch và người ăn kiêng." },
+  { "id": 9, "name": "Đậu xanh nguyên hạt", "origin": "Đắk Lắk", "category": "Gạo & Ngũ cốc", "price": 42000, "unit": "kg", "emoji": "🫘", "desc": "Hạt chắc, nấu chè, nấu xôi hay làm sữa đều ngon." },
+
+  { "id": 10, "name": "Cà phê Robusta Buôn Ma Thuột", "origin": "Đắk Lắk", "category": "Đặc sản", "price": 120000, "unit": "500g", "emoji": "☕", "desc": "Rang mộc, đậm đà, hậu vị béo ngậy, hương thơm nồng nàn." },
+  { "id": 11, "name": "Tiêu đen Phú Quốc", "origin": "Kiên Giang", "category": "Đặc sản", "price": 150000, "unit": "500g", "emoji": "🌶️", "desc": "Hạt chắc, cay nồng, thơm đặc trưng, nghiền tại chỗ." },
+  { "id": 12, "name": "Mật ong hoa nhãn", "origin": "Hưng Yên", "category": "Đặc sản", "price": 180000, "unit": "chai 500ml", "emoji": "🍯", "desc": "Mật nguyên chất, vàng óng, vị ngọt dịu và thơm hoa nhãn." },
+  { "id": 13, "name": "Hạt điều rang muối", "origin": "Bình Phước", "category": "Đặc sản", "price": 220000, "unit": "kg", "emoji": "🥜", "desc": "Hạt to, giòn bùi, rang củi thơm béo." },
+  { "id": 14, "name": "Trà Shan tuyết cổ thụ", "origin": "Hà Giang", "category": "Đặc sản", "price": 250000, "unit": "200g", "emoji": "🍵", "desc": "Trà cổ thụ trên 300 năm tuổi, nước vàng xanh, hậu ngọt sâu." },
+
+  { "id": 15, "name": "Rau muống sạch", "origin": "Đà Lạt", "category": "Rau củ", "price": 15000, "unit": "bó", "emoji": "🥬", "desc": "Trồng thủy canh không thuốc trừ sâu, giòn ngọt." },
+  { "id": 16, "name": "Cà rốt Đà Lạt", "origin": "Lâm Đồng", "category": "Rau củ", "price": 28000, "unit": "kg", "emoji": "🥕", "desc": "Củ đều, màu cam tươi, giòn ngọt, giàu beta-carotene." },
+  { "id": 17, "name": "Khoai lang mật", "origin": "Vĩnh Long", "category": "Rau củ", "price": 35000, "unit": "kg", "emoji": "🍠", "desc": "Ruột vàng cam, nướng lên ra mật, dẻo thơm." },
+  { "id": 18, "name": "Ớt hiểm xanh", "origin": "Tây Ninh", "category": "Rau củ", "price": 60000, "unit": "kg", "emoji": "🌶️", "desc": "Cay xé lưỡi, thơm nồng, ăn kèm bún phở hay làm mắm ớt." }
+]
